@@ -1,0 +1,97 @@
+body{
+    font-family: Helvetica, sans-serif;
+}
+/* home part start here */
+.navbar-handle{
+    background-color: #000000;
+}
+.home{
+  
+}
+.nav-btn{
+   color: #2C71A5;
+}
+.home-heading{
+    color: #3B559A;
+}
+.home-button{
+    height: 48px;
+    width: 153px;
+    background-color: #000000;
+    color: white;
+}
+@media(max-width: 576px){
+    .home-button{
+        height: 48px;
+        width: 81px;
+        background-color: #000000;
+        color: white;
+    }
+}
+/* home part end here */
+
+/* why schoolpara start here*/
+.why-school{
+    
+}
+
+.text-color{
+    color: #1A1363;
+}
+.scl-text-size{
+    font-size: 20px;
+}
+/* why schoolpara end here */
+
+/* video start here */
+.video-bg{
+    background-color: #59DEFF;
+}
+/* video end here */
+
+/* practice start */
+.pct-btn{
+    background-color: #000000;
+    color: #FEE251;
+}
+/* practice end */
+
+/* team start */
+
+.team-btn{
+    background-color: #000000;
+    color: #FEE251;
+}
+/* team end */
+/* online class start */
+.online-class-bg{
+    background-color: #4BEFB0;
+}
+.online-btn{
+    background-color: #000000;
+    color: #FEE251;
+}
+/* online class end */
+
+/* footer start */
+.footer-bg{
+    background-color: #333333;
+}
+.footer-title-color{
+    color: #2dffb2;
+}
+.footer-list-color{
+    color: rgb(163, 163, 163);
+}
+.footer-scool-image{
+    
+}
+/* footer end */
+button{
+    height: 40px;
+    width: 120px;
+    background-color: black;
+    margin-right:10px;
+    color: rgb(187, 187, 3);
+    border-radius: 10px;
+}
