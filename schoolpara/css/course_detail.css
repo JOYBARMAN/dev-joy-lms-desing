@@ -1,0 +1,61 @@
+body{
+    font-family: Helvetica, sans-serif;
+}
+/* home part start here */
+.navbar-handle{
+    background-color: #000000;
+}
+.home{
+  
+}
+.nav-btn{
+   color: #2C71A5;
+}
+.home-heading{
+    color: #3B559A;
+}
+.home-button{
+    height: 48px;
+    width: 153px;
+    background-color: #000000;
+    color: white;
+}
+
+
+
+
+
+/* footer start */
+.footer-bg{
+    background-color: #333333;
+}
+.footer-title-color{
+    color: #2dffb2;
+}
+.footer-list-color{
+    color: rgb(163, 163, 163);
+}
+.footer-scool-image{
+    
+}
+/* footer end */
+.button_item{
+    height: 40px;
+    width: 120px;
+    background-color: black;
+    margin-right:10px;
+    color: rgb(187, 187, 3);
+    border-radius: 10px;
+}
+.bootCols{
+    box-sizing:border-box;
+    
+  }
+
+  /* Css for course details */
+
+  .detail{
+      background-color: rgb(171, 171, 255);
+      font-weight: bold;
+  }
+
