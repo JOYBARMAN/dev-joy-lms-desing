@@ -29,15 +29,29 @@
 
 <body>
   <div class="container">
-    <header>
+    <header class="bg-primary">
+      <div class="row">
+        <div class="col-lg-5">
+          <h1 class="title text-center text-white font-weight-bold py-2">Study with me</h1>
+        </div>
+        <div class="col-lg-7">
+          <ul class="nav justify-content-center py-3" >
+            <li class="nav-item"><a class="navbarlink nav-link text-white h5" href="#service">Home</a></li>
+            <li class="nav-item"><a class="navbarlink nav-link text-white h5" href="#about">About</a></li>
+            <li class="nav-item"><a class="navbarlink nav-link text-white h5">Contact</a></li>
+            <li class="nav-item"><a class="navbarlink nav-link text-white h5">Feedback</a></li>
+          </ul>
+        </div>
+      </div>
 
+      </ul>
     </header>
     <main>
 
       <!-- service section start -->
-      <section>
+      <section id="service">
 
-        <h1 class="title text-center bg-primary text-white font-weight-bold py-4">Study With Me</h1>
+      
         <h3 class="text-center text-dark font-weight-bold my-4">Our Services</h3>
         <div class="row">
           <div class="col-lg-3 col-md-6">
@@ -81,7 +95,7 @@
       <!-- service section end -->
 
       <!-- About me section -->
-      <section>
+      <section id="about">
         <div class="about-section">
           <div class="jumbotron pt-1">
             <h1 class="title text-center text-dark font-weight-bold py-4">About Me</h1>
@@ -91,8 +105,17 @@
               </div>
               <div class="col-lg-8">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et nesciunt quidem commodi libero necessitatibus dolor iusto placeat? At repellat natus harum? Non temporibus vel soluta nesciunt veniam architecto officiis magnam?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate assumenda iusto, esse beatae architecto exercitationem necessitatibus veritatis reprehenderit rem omnis eaque officiis labore, sunt quae enim, blanditiis tenetur ipsa repellendus?
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et nesciunt quidem commodi libero necessitatibus.
                 </p>
+                <!-- using collapse  -->
+
+                <a href="#demo" data-toggle="collapse">See More</a>
+                <div id="demo" class="collapse">
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident similique deleniti vel, illum nihil veritatis consequuntur animi dolorum aliquid sapiente minima ratione, magni eius facere voluptatibus deserunt. Illum, magnam dicta.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptatem esse sapiente, amet tenetur consectetur maxime itaque eaque similique officiis voluptas placeat, harum ad, rerum temporibus totam id debitis corporis.
+                  </p>
+                </div>
+                <!-- collapse end -->
                 <div class="alert alert-bg-primary alert-dissmissable">
                   <button class="close" data-dismiss="alert">&times;</button>
                   You may like to visit<a href="#"></a>
@@ -143,16 +166,80 @@
       <!-- customer review end -->
 
       <!-- Button start -->
+      <section>
       <div class="container mt-4">
-        <h1 class="title text-center bg-dark text-white font-weight-bold py-4">Button Style</h1>
+        <h1 class="title text-center bg-dark text-white font-weight-bold py-3">Button Style</h1>
         
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio saepe quisquam nulla totam non amet, assumenda sunt expedita dolorum ullam corporis corrupti repellat similique sequi architecto sapiente repudiandae quasi omnis.</p>
-
+        <div class="btn-group m-2">
+          <button class="btn btn-primary btn-lg ">Click Here</button>
+          <button class="btn btn-success btn-lg ">Click Here</button>
+          <button class="btn btn-danger btn-lg">Click Here</button>
+        </div>
         <button class="btn-block btn btn-outline-primary btn-lg mb-3">Click Me</button>
-        <button class="btn btn-dark btn-lg">Click Here</button>
+        <button class="btn btn-dark btn-sm">Click Here</button>
+        <a href="www.google.com" class="btn btn-outline-primary btn-sm">Vsit Google</a>
       </div>
+      </section>
       <!-- Button end -->
+      <!-- student list  -->
+      <section>
+        <div class="container mt-4">
+          <h1 class="title text-center bg-light text-dark font-weight-bold py-3">Student List</h1>
+          <ul class="list-group">
+            <li class="list-group-item bg-primary text-left text-white h4">Joy Barman</li>
+            <li class="list-group-item bg-dark text-center text-white h5">New Student</li>
+            <li class="list-group-item bg-success text-right text-white h6">Old Sudent</li>
+            <a href="bootstrap3.html" class="list-group-item bg-danger text-center text-white">Bootstrap 3 Link</a>
+          </ul>
+        </div>
+      </section>
+      <!-- student list end  -->
+
+      
+      <!-- Toggleable dynamic tab start  -->
+
+      <div class="container my-4">
+        <h1 class="bg-primary text-white p-3 text-center">Toggleable dynamic tab</h1>
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="pill" href="#work">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="pill" href="#edu">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="pill" href="#exp">Experience</a>
+            </li>
+          </ul>
+        <div class="tab-content">
+            <div id="work" class="tab-pane active">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, reprehenderit?</p>
+            </div>
+            <div id="edu" class="tab-pane">
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, atque?</p>
+            </div>
+            <div id="exp" class="tab-pane">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, deleniti!</p>
+            </div>
+        </div>
+      </div>
+      <!-- Toggleable dynamic tab start  -->
     </main>
+    <!-- pagination start -->
+    <div class="container my-3">
+
+      <footer class="bg-dark">
+        
+        <ul class="pagination py-3 justify-content-center">
+          <li class="page-item"><a class="page-link" href="bootstarp1.html">1</a></li>
+          <li class="page-item"><a class="page-link" href="bootstrap2.html">2</a></li>
+          <li class="page-item"><a class="page-link" href="bootstrap3.html">3</a></li>
+          <li class="page-item"><a class="page-link" href="bootstrap4.html">4</a></li>
+        </ul>
+      </footer>
+    </div>
+    <!-- pagination end  -->
   </div>
 
   <!-- Optional JavaScript; choose one of the two! -->

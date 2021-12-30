@@ -4,3 +4,6 @@
   font-family: "IBM Plex Mono", monospace;
   font-family: "Roboto", sans-serif; */
 }
+.navbarlink:hover{
+  text-decoration: underline 2px solid white;
+}
