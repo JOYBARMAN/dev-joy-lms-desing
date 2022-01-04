@@ -1,0 +1,14 @@
+.row ul li{
+    margin-right: 10px;
+    list-style-type: none;
+}
+
+.title{
+    background-color: rgb(251, 197, 176);
+}
+.bottom{
+    background-color: rgb(216, 209, 216);
+}
+.bottom button{
+    height: 45px;
+}
