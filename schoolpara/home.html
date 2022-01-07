@@ -13,10 +13,29 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <!--bootstrap css link-->
     <link rel="stylesheet" href="css/style.css" />
+    <!-- w3school css link  -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <!--row code css file-->
     <script src="https://kit.fontawesome.com/ba78558982.js" crossorigin="anonymous"></script>
      <!-- local css  -->
      <link rel="stylesheet" href="css/popular_content.css">
+    <!-- <link rel="stylesheet" href="css/feedback.css"> -->
+    <style>
+        .mySlides {
+          display: none;
+        }
+        .feedback-img{
+          height: 200px;
+          width:250px;
+          margin-bottom: 5px;
+      }
+      .text{
+          margin-top: 50px;
+      }
+      .w3-button{
+          width: 4rem;
+      }
+      </style>
 </head>
 
 <body>
@@ -424,7 +443,80 @@
         </section>
         <!-- check online class end  -->
 
+       <!-- Feedback section start  -->
+        <section class="">
+            <div class="w3-content w3-display-container shadow bg-white rounded">
 
+                <div class="w3-display-container mySlides p-4">
+                  <div class="row">
+                    <div class="col-lg-6 text-center text-lg-right">
+                      <img
+                        src="https://img.freepik.com/free-photo/handsome-confident-smiling-man-with-hands-crossed-chest_176420-18743.jpg?size=626&ext=jpg"
+                        class="rounded-circle feedback-img" alt="...">
+            
+                    </div>
+                    <div class="col-lg-4 text-center text-lg-left  text">
+                      <h2>Joy Barman1</h2>
+                      <p>Daffodil University</p>
+                    </div>
+            
+                    <p class="text-center"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolorem, incidunt
+                      laudantium ad alias modi iusto, ratione vero consequatur accusantium suscipit ullam
+                      fugit nobis? Voluptatum porro voluptates quibusdam labore optio.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi unde ut possimus repudiandae qui! Facere exercitationem libero cupiditate assumenda et voluptatem a similique, molestiae aperiam. Illum eveniet culpa tenetur repudiandae.</p>
+            
+                  </div>
+                </div>
+                <div class="w3-display-container mySlides p-4">
+                  <div class="row">
+                    <div class="col-lg-6 text-center text-lg-right">
+                      <img
+                        src="https://img.freepik.com/free-photo/handsome-confident-smiling-man-with-hands-crossed-chest_176420-18743.jpg?size=626&ext=jpg"
+                        class="rounded-circle feedback-img" alt="...">
+            
+                    </div>
+                    <div class="col-lg-4 text-center text-lg-left  text">
+                      <h2>Joy Barman2</h2>
+                      <p>Daffodil University</p>
+                    </div>
+            
+                    <p class="text-center"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolorem, incidunt
+                      laudantium ad alias modi iusto, ratione vero consequatur accusantium suscipit ullam
+                      fugit nobis? Voluptatum porro voluptates quibusdam labore optio.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, natus numquam? Fuga voluptatem nesciunt vel officiis laudantium odio ratione quo doloremque consequuntur vitae aut minus sed cumque, recusandae porro illo!</p>
+            
+                  </div>
+                </div>
+                <div class="w3-display-container mySlides p-4">
+                  <div class="row">
+                    <div class="col-lg-6 text-center text-lg-right">
+                      <img
+                        src="https://img.freepik.com/free-photo/handsome-confident-smiling-man-with-hands-crossed-chest_176420-18743.jpg?size=626&ext=jpg"
+                        class="rounded-circle feedback-img" alt="...">
+            
+                    </div>
+                    <div class="col-lg-4 text-center text-lg-left  text">
+                      <h2>Joy Barman3</h2>
+                      <p>Daffodil University</p>
+                    </div>
+            
+                    <p class="text-center"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolorem, incidunt
+                      laudantium ad alias modi iusto, ratione vero consequatur accusantium suscipit ullam
+                      fugit nobis? Voluptatum porro voluptates quibusdam labore optio.
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, deleniti repellendus. Deleniti veniam, molestias libero non quae dolorum facilis perspiciatis, nobis at similique ipsum minima modi voluptatum ipsa possimus cum.
+                    </p>
+            
+                  </div>
+                </div>
+            
+            
+                <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+            
+              </div>
+        </section>
+        
+        <!-- feedback end  -->
 
         <!--contact start here-->
         <section class="team-bg mt-5 container">
@@ -517,7 +609,25 @@
     <!--full wrapper end here-->
 
 
-
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+    
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+    
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) { slideIndex = 1 }
+          if (n < 1) { slideIndex = x.length }
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          x[slideIndex - 1].style.display = "block";
+        }
+      </script>
 
     <script src="/js/popular_content.js"></script>
 

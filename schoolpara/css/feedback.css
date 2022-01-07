@@ -1,5 +1,5 @@
 /* feedback section start  */
-#feedback{
+/* #feedback{
     padding: 4% 10%;
     background-color: rgb(158, 159, 255);
 }
@@ -16,5 +16,14 @@
 }
 .text{
     margin-top: 50px;
-}
+} */
 /* feedback section end  */
+
+.feedback-img{
+    height: 200px;
+    width:250px;
+    margin-bottom: 5px;
+}
+.text{
+    margin-top: 50px;
+}
