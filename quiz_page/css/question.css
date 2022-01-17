@@ -12,3 +12,43 @@
 .bottom button{
     height: 45px;
 }
+
+/* Css for arrow buttton */
+/* #container {
+    width:150px;
+    height:40px;
+    background-color:rgb(120, 224, 120);
+    position:relative;
+  }
+  .arrow-right {
+    width: 0; 
+    height: 0; 
+    border-top: 20px solid transparent; 
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid rgb(120, 224, 120);
+    position:absolute;
+    right:-20px;
+  } */
+
+  .multiply-button {
+    display: table;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    color: rgb(61, 63, 69);
+    padding: 0;
+  }
+  .multiply-button-content {
+    display: table-cell;
+    background: rgb(255, 255, 255);
+    padding: 10px 9px;
+    border: solid 1px #ffffff;
+    border-right: none !important;
+  }
+  .multiply-button-arrow {
+    display: table-cell;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 20px 0 20px 12px;
+    border-color: transparent transparent transparent rgb(255, 255, 255);
+  }
