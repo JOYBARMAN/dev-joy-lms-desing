@@ -14,21 +14,6 @@
 }
 
 /* Css for arrow buttton */
-/* #container {
-    width:150px;
-    height:40px;
-    background-color:rgb(120, 224, 120);
-    position:relative;
-  }
-  .arrow-right {
-    width: 0; 
-    height: 0; 
-    border-top: 20px solid transparent; 
-    border-bottom: 20px solid transparent;
-    border-left: 20px solid rgb(120, 224, 120);
-    position:absolute;
-    right:-20px;
-  } */
 
   .multiply-button {
     display: table;
@@ -52,3 +37,26 @@
     border-width: 20px 0 20px 12px;
     border-color: transparent transparent transparent rgb(255, 255, 255);
   }
+
+
+  /* css for question answer icon */
+  /* Correct Answer icon  */
+  .signicon{
+    margin-right: 30px;
+    margin-top: 5px;
+    font-size: 10px;
+    padding: 2px;
+  }
+  /* Wrong Answer icon */
+  .timeicon{
+    margin-right: 30px;
+    margin-top: 5px;
+    font-size: 9px;
+    padding: 3px;
+  }
+  /* css for question answer*/
+  .form-check-input{
+    margin-left: 1.75rem !important;
+    margin-top: 0.5rem !important;
+  }
+
