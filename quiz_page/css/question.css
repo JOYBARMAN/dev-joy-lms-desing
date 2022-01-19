@@ -60,3 +60,10 @@
     margin-top: 0.5rem !important;
   }
 
+  /* css for result  */
+  table th{
+    border: none!important;
+  }
+  table td{
+    border: none!important;
+  }
