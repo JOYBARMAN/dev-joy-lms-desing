@@ -1,0 +1,11 @@
+/* Right answer icon  */
+.checkicon {
+  font-size: 11px;
+  padding: 3px;
+}
+
+/* Wrong Answer icon */
+.wrongicon {
+  font-size: 11px;
+  padding: 3px;
+}
