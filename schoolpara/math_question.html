@@ -70,7 +70,7 @@
             list-style-type: none;
         } */
 
-       .question-section .title {
+        .question-section .title {
             background-color: rgb(255, 243, 178);
         }
 
@@ -109,6 +109,13 @@
             border-color: transparent rgb(255, 255, 255);
         }
 
+        .arrow-left {
+            width: 0;
+            height: 45px;
+            border-top: 20px solid transparent;
+            border-bottom: 20px solid transparent;
+            border-right: 12px solid white;
+        }
 
         /* css for question answer icon */
         /* Correct Answer icon  */
@@ -271,12 +278,16 @@
                             <h5 class="text-left text-lg-center text-dark my-2 p-2 ">Question 4 of 231</h5>
                         </div>
                         <div class="col-12 col-lg-4 col-md-6 d-flex">
-                            <div id="container">
+                            <!-- <div id="container">
                                 <button class="btn mr-2 bg-white text-dark">Submit Answer</button>
-                            </div>
+                            </div> -->
+                            <button id="multiply-button" class="multiply-button d-flex">
+                                <div class="arrow-left"></div>
+                                <div class="multiply-button-content">Previous</div>
+                            </button>
 
-                            <button id="multiply-button" class="multiply-button">
-                                <div class="multiply-button-content">Next Question</div>
+                            <button id="multiply-button" class="multiply-button mx-3">
+                                <div class="multiply-button-content">Next</div>
                                 <div class="multiply-button-arrow "></div>
                             </button>
 
